@@ -3,7 +3,6 @@ Dada una lista de palabras, usa filter() para eliminar todas las que tengan meno
 """
 
 
-Lista=["Nitro","Hola","Shory","Trampa","Infeliz","Hello","Adios"]
+Lista=["Nitro","Hola","Shory","Trampa","Infeliz","Hello","Adios,ola,gato"]
 Longitud_M=filter(lambda n: len(n)>=5,Lista)
 print(list(Longitud_M))
-
